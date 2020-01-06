@@ -1,0 +1,55 @@
+body, ul, li {
+  margin: 0;
+  padding: 0;
+ 
+}
+.ribon{
+  background:#97B6CA;
+  font-size: 16px;
+  padding: 11px;
+  color: aliceblue;
+  margin-top: 20px;
+  
+}
+
+.leftNavs {
+  background: #3C4E62;
+  color: #ffffff;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  height: 100%;
+}
+
+.leftNavs .title {
+  background: #2D3E50;
+  padding: 30px;
+}
+
+.leftNavs ul li {
+  padding: 5px 10px;
+  list-style: none;
+}
+
+.leftNavs ul li:hover {
+  background: #2D3E50;
+}
+
+.leftNavs ul li a {
+  text-decoration: none;
+  color: #bbc0ce;
+  font-weight: 500;
+  display: block;
+  margin-left: 0px;
+  padding-left: 0;
+}
+
+.leftNavs ul li a:hover {
+  color: #ffffff;
+}
+
+.leftNavs ul li a span {
+  text-align: right;
+  float: right;
+  background: #0c0f13;
+}
+/*# sourceMappingURL=style.css.map */

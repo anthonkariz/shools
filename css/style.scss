@@ -1,0 +1,47 @@
+$lightBlue:#3C4E62;
+$darkBlue:#2D3E50;
+body,ul,li{
+    margin: 0;
+    padding: 0;
+
+}
+.leftNavs{
+
+    background: $lightBlue;
+    color: #ffffff;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    .title{
+        background:$darkBlue;
+        padding: 30px;
+    }
+    ul li{
+        padding: 5px 10px;
+        list-style: none;
+        &:hover{
+            background: $darkBlue;
+         
+        }
+        a{
+            text-decoration: none;
+            color: #bbc0ce;;
+            font-weight: 500;
+            display: block;
+            margin-left: 0px;
+            padding-left:0 ;
+            &:hover{
+               
+                color:#ffffff;
+            }
+            span{
+                text-align: right;
+                
+                float: right;
+            }
+        }
+
+    }
+    }
+   
+    
+   
